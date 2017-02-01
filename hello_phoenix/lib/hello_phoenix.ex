@@ -23,7 +23,6 @@ defmodule HelloPhoenix do
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: HelloPhoenix.Supervisor]
     Supervisor.start_link(children, opts)
-  end
 
   # Tell Phoenix to update the endpoint configuration
   # whenever the application is updated.
