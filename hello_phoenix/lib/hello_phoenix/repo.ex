@@ -6,7 +6,7 @@ defmodule HelloPhoenix.Repo do
     end
     
     def priv do
-      app_dir(:splurty, "priv/repo")
+      app_dir(:hello_phoenix, "priv/repo")
     end
   
 end

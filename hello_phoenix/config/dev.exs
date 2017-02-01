@@ -29,6 +29,9 @@ config :hello_phoenix, HelloPhoenix.Endpoint,
 # Do not include metadata nor timestamps in development logs
 config :logger, :console, format: "[$level] $message\n"
 
+config :phoenix, :database,
+url: "ecto://ecto:password@localhost/phoenix_development"
+
 # Set a higher stacktrace during development. Avoid configuring such
 # in production as building large stacktraces may be expensive.
 config :phoenix, :stacktrace_depth, 20
